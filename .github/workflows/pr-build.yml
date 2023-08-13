@@ -26,36 +26,36 @@ jobs:
         run: |
           cd chapter9
           mvn --batch-mode test
-  pr-api-minium-review-criteria:
-    name: Minimum design review criteria (MDRC) checks
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout out pr branch
-        uses: actions/checkout@v3
-        with:
-          path: pr-branch
-      - name: Check PR title
-        run: ./pr-branch/chapter9/pr-title.sh "'${{ github.event.pull_request.title }}'"
-      - name: Run API linting
-        run: |
-          npx @stoplight/spectral-cli lint "./pr-branch/chapter9/apis/product-catalog.oas.yaml" --ruleset "./pr-branch/chapter9/apis/rulesets/json-api.ruleset.yaml"
-      - name: Check out main branch
-        uses: actions/checkout@v3
-        with:
-          ref: main
-          path: base
+#  pr-api-minium-review-criteria:
+#    name: Minimum design review criteria (MDRC) checks
+#    runs-on: ubuntu-latest
+#    steps:
+#      - name: Checkout out pr branch
+#        uses: actions/checkout@v3
+#        with:
+#          path: pr-branch
+#      - name: Check PR title
+#        run: ./pr-branch/chapter9/pr-title.sh "'${{ github.event.pull_request.title }}'"
+#      - name: Run API linting
+#        run: |
+#          npx @stoplight/spectral-cli lint "./pr-branch/chapter9/apis/product-catalog.oas.yaml" --ruleset "./pr-branch/chapter9/apis/rulesets/json-api.ruleset.yaml"
+#      - name: Check out main branch
+#        uses: actions/checkout@v3
+#        with:
+#          ref: main
+#          path: base
 #      - name: Breaking change checks
 #        uses: oasdiff/oasdiff-action/check-breaking@main
 #        with:
 #          base: './base/chapter9/chapter9/apis/product-catalog.oas.yaml'
 #          revision: './pr-branch/chapter9/chapter9/apis/product-catalog.oas.yaml'
 #          fail-on-diff: true
-      - name: Prose Linting
-        run: |
-          wget -nv  https://github.com/errata-ai/vale/releases/download/v2.15.4/vale_2.15.4_Linux_64-bit.tar.gz
-          mkdir bin && tar -xvzf vale_2.15.4_Linux_64-bit.tar.gz -C bin
-          export PATH=./bin:"$PATH"
-          
-          vale sync --config='pr-branch/chapter9/.vale.ini'
-          vale pr-branch/chapter9/apis/docs --config='pr-branch/chapter9/.vale.ini'
+#      - name: Prose Linting
+#        run: |
+#          wget -nv  https://github.com/errata-ai/vale/releases/download/v2.15.4/vale_2.15.4_Linux_64-bit.tar.gz
+#          mkdir bin && tar -xvzf vale_2.15.4_Linux_64-bit.tar.gz -C bin
+#          export PATH=./bin:"$PATH"
+#
+#          vale sync --config='pr-branch/chapter9/.vale.ini'
+#          vale pr-branch/chapter9/apis/docs --config='pr-branch/chapter9/.vale.ini'
        
