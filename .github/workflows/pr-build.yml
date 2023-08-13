@@ -47,8 +47,8 @@ jobs:
       - name: Breaking change checks
         uses: oasdiff/oasdiff-action/check-breaking@main
         with:
-          base: './base/chapter9/apis/product-catalog.oas.yaml'
-          revision: './pr-branch/chapter9/apis/product-catalog.oas.yaml'
+          base: './base/chapter9/chapter9/apis/product-catalog.oas.yaml'
+          revision: './pr-branch/chapter9/chapter9/apis/product-catalog.oas.yaml'
           fail-on-diff: true
       - name: Prose Linting
         run: |
