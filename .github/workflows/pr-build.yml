@@ -39,11 +39,11 @@ jobs:
       - name: Run API linting
         run: |
           npx @stoplight/spectral-cli lint "./pr-branch/chapter9/apis/product-catalog.oas.yaml" --ruleset "./pr-branch/chapter9/apis/rulesets/json-api.ruleset.yaml"
-      - name: Check out main branch
-        uses: actions/checkout@v3
-        with:
-          ref: main
-          path: base
+#      - name: Check out main branch
+#        uses: actions/checkout@v3
+#        with:
+#          ref: main
+#          path: base
       - name: Breaking change checks
         uses: oasdiff/oasdiff-action/check-breaking@main
         with:
