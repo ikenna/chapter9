@@ -15,6 +15,9 @@ x-kusk:
       name: productsapi-svc
       namespace: default
       port: 8080
+  rate_limit:
+    requests_per_unit: 2
+    unit: minute
 servers:
   - url: https://api.acme-pet-supplies.co.uk
 tags:
