@@ -1,0 +1,440 @@
+2023/06/17 22:15:17 [notice] 27060#0: [lua] regex.lua:431: parse_regex_opts(): regex compilation cache disabled in init phase under macOS
+2023/06/17 22:15:17 [notice] 27060#0: [lua] regex.lua:435: parse_regex_opts(): regex compilation disabled in init phase under macOS
+2023/06/17 22:15:17 [notice] 27060#0: [lua] regex.lua:435: parse_regex_opts(): regex compilation disabled in init phase under macOS
+2023/06/17 22:15:17 [notice] 27060#0: [lua] regex.lua:431: parse_regex_opts(): regex compilation cache disabled in init phase under macOS
+2023/06/17 22:15:17 [notice] 27060#0: [lua] regex.lua:431: parse_regex_opts(): regex compilation cache disabled in init phase under macOS
+2023/06/17 22:15:17 [notice] 27060#0: [lua] regex.lua:435: parse_regex_opts(): regex compilation disabled in init phase under macOS
+2023/06/17 22:15:18 [notice] 27060#0: [lua] regex.lua:435: parse_regex_opts(): regex compilation disabled in init phase under macOS
+2023/06/17 22:15:18 [notice] 27060#0: [lua] regex.lua:431: parse_regex_opts(): regex compilation cache disabled in init phase under macOS
+2023/06/17 22:15:18 [notice] 27060#0: using the "kqueue" event method
+2023/06/17 22:15:18 [notice] 27060#0: openresty/1.21.4.1
+2023/06/17 22:15:18 [notice] 27060#0: OS: Darwin 22.5.0
+2023/06/17 22:15:18 [notice] 27060#0: hw.ncpu: 12
+2023/06/17 22:15:18 [notice] 27060#0: net.inet.tcp.sendspace: 131072
+2023/06/17 22:15:18 [notice] 27060#0: kern.ipc.somaxconn: 128
+2023/06/17 22:15:18 [notice] 27060#0: getrlimit(RLIMIT_NOFILE): 10240:9223372036854775807
+2023/06/17 22:15:18 [notice] 27066#0: start worker processes
+2023/06/17 22:15:18 [notice] 27066#0: start worker process 27067
+2023/06/17 22:15:18 [notice] 27066#0: start worker process 27068
+2023/06/17 22:15:18 [notice] 27066#0: start worker process 27069
+2023/06/17 22:15:18 [notice] 27066#0: start worker process 27070
+2023/06/17 22:15:18 [notice] 27066#0: start worker process 27071
+2023/06/17 22:15:18 [notice] 27066#0: start worker process 27072
+2023/06/17 22:15:18 [notice] 27066#0: start worker process 27073
+2023/06/17 22:15:18 [notice] 27066#0: start worker process 27074
+2023/06/17 22:15:18 [notice] 27066#0: start worker process 27075
+2023/06/17 22:15:18 [notice] 27066#0: start worker process 27076
+2023/06/17 22:15:18 [notice] 27066#0: start worker process 27077
+2023/06/17 22:15:18 [notice] 27066#0: start worker process 27078
+2023/06/17 22:15:18 [notice] 27075#0: *7 [lua] globalpatches.lua:66: sleep(): executing a blocking 'sleep' (0.001 seconds), context: init_worker_by_lua*
+2023/06/17 22:15:18 [notice] 27075#0: *7 [lua] globalpatches.lua:66: sleep(): executing a blocking 'sleep' (0.002 seconds), context: init_worker_by_lua*
+2023/06/17 22:15:18 [notice] 27075#0: *7 [lua] globalpatches.lua:66: sleep(): executing a blocking 'sleep' (0.004 seconds), context: init_worker_by_lua*
+2023/06/17 22:15:18 [notice] 27069#0: *1 [lua] globalpatches.lua:66: sleep(): executing a blocking 'sleep' (0.001 seconds), context: init_worker_by_lua*
+2023/06/17 22:15:18 [notice] 27074#0: *5 [lua] globalpatches.lua:66: sleep(): executing a blocking 'sleep' (0.001 seconds), context: init_worker_by_lua*
+2023/06/17 22:15:18 [notice] 27071#0: *8 [lua] globalpatches.lua:66: sleep(): executing a blocking 'sleep' (0.001 seconds), context: init_worker_by_lua*
+2023/06/17 22:15:18 [notice] 27068#0: *2 [lua] globalpatches.lua:66: sleep(): executing a blocking 'sleep' (0.001 seconds), context: init_worker_by_lua*
+2023/06/17 22:15:18 [notice] 27069#0: *1 [lua] globalpatches.lua:66: sleep(): executing a blocking 'sleep' (0.002 seconds), context: init_worker_by_lua*
+2023/06/17 22:15:18 [notice] 27074#0: *5 [lua] globalpatches.lua:66: sleep(): executing a blocking 'sleep' (0.002 seconds), context: init_worker_by_lua*
+2023/06/17 22:15:18 [notice] 27071#0: *8 [lua] globalpatches.lua:66: sleep(): executing a blocking 'sleep' (0.002 seconds), context: init_worker_by_lua*
+2023/06/17 22:15:18 [notice] 27068#0: *2 [lua] globalpatches.lua:66: sleep(): executing a blocking 'sleep' (0.002 seconds), context: init_worker_by_lua*
+2023/06/17 22:15:18 [notice] 27073#0: *4 [lua] globalpatches.lua:66: sleep(): executing a blocking 'sleep' (0.001 seconds), context: init_worker_by_lua*
+2023/06/17 22:15:18 [notice] 27075#0: *7 [lua] globalpatches.lua:66: sleep(): executing a blocking 'sleep' (0.008 seconds), context: init_worker_by_lua*
+2023/06/17 22:15:18 [notice] 27069#0: *1 [lua] globalpatches.lua:66: sleep(): executing a blocking 'sleep' (0.004 seconds), context: init_worker_by_lua*
+2023/06/17 22:15:18 [notice] 27073#0: *4 [lua] globalpatches.lua:66: sleep(): executing a blocking 'sleep' (0.002 seconds), context: init_worker_by_lua*
+2023/06/17 22:15:18 [notice] 27070#0: *3 [lua] init.lua:240: purge(): [DB cache] purging (local) cache, context: init_worker_by_lua*
+2023/06/17 22:15:18 [notice] 27071#0: *8 [lua] globalpatches.lua:66: sleep(): executing a blocking 'sleep' (0.004 seconds), context: init_worker_by_lua*
+2023/06/17 22:15:18 [notice] 27070#0: *3 [lua] init.lua:240: purge(): [DB cache] purging (local) cache, context: init_worker_by_lua*
+2023/06/17 22:15:18 [notice] 27074#0: *5 [lua] globalpatches.lua:66: sleep(): executing a blocking 'sleep' (0.004 seconds), context: init_worker_by_lua*
+2023/06/17 22:15:18 [notice] 27068#0: *2 [lua] globalpatches.lua:66: sleep(): executing a blocking 'sleep' (0.004 seconds), context: init_worker_by_lua*
+2023/06/17 22:15:18 [notice] 27070#0: *3 [kong] init.lua:453 declarative config loaded from ./kong/kong.yml, context: init_worker_by_lua*
+2023/06/17 22:15:18 [notice] 27076#0: *10 [lua] globalpatches.lua:66: sleep(): executing a blocking 'sleep' (0.001 seconds), context: init_worker_by_lua*
+2023/06/17 22:15:18 [notice] 27070#0: *3 [lua] init.lua:415: every(): [timer-ng] fallback to ngx.timer.every [interval = 86400], context: init_worker_by_lua*
+2023/06/17 22:15:18 [notice] 27076#0: *10 [lua] init.lua:415: every(): [timer-ng] fallback to ngx.timer.every [interval = 86400], context: init_worker_by_lua*
+2023/06/17 22:15:18 [notice] 27073#0: *4 [lua] init.lua:415: every(): [timer-ng] fallback to ngx.timer.every [interval = 86400], context: init_worker_by_lua*
+2023/06/17 22:15:18 [notice] 27068#0: *2 [lua] init.lua:415: every(): [timer-ng] fallback to ngx.timer.every [interval = 86400], context: init_worker_by_lua*
+2023/06/17 22:15:18 [notice] 27078#0: *11 [lua] init.lua:415: every(): [timer-ng] fallback to ngx.timer.every [interval = 86400], context: init_worker_by_lua*
+2023/06/17 22:15:18 [notice] 27072#0: *6 [lua] init.lua:415: every(): [timer-ng] fallback to ngx.timer.every [interval = 86400], context: init_worker_by_lua*
+2023/06/17 22:15:18 [notice] 27071#0: *8 [lua] init.lua:415: every(): [timer-ng] fallback to ngx.timer.every [interval = 86400], context: init_worker_by_lua*
+2023/06/17 22:15:18 [notice] 27069#0: *1 [lua] init.lua:415: every(): [timer-ng] fallback to ngx.timer.every [interval = 86400], context: init_worker_by_lua*
+2023/06/17 22:15:18 [notice] 27075#0: *7 [lua] init.lua:415: every(): [timer-ng] fallback to ngx.timer.every [interval = 86400], context: init_worker_by_lua*
+2023/06/17 22:15:18 [notice] 27067#0: *9 [lua] init.lua:415: every(): [timer-ng] fallback to ngx.timer.every [interval = 86400], context: init_worker_by_lua*
+2023/06/17 22:15:18 [notice] 27074#0: *5 [lua] init.lua:415: every(): [timer-ng] fallback to ngx.timer.every [interval = 86400], context: init_worker_by_lua*
+2023/06/17 22:15:18 [notice] 27077#0: *12 [lua] init.lua:415: every(): [timer-ng] fallback to ngx.timer.every [interval = 86400], context: init_worker_by_lua*
+2023/06/17 22:15:18 [notice] 27066#0: signal 23 (SIGIO) received from 27067
+2023/06/17 22:15:18 [notice] 27066#0: signal 23 (SIGIO) received from 27067
+2023/06/17 22:15:18 [notice] 27066#0: signal 23 (SIGIO) received from 27073
+2023/06/17 22:15:18 [notice] 27066#0: signal 23 (SIGIO) received from 27073
+2023/06/17 22:15:18 [notice] 27066#0: signal 23 (SIGIO) received
+2023/06/17 22:15:18 [notice] 27066#0: signal 23 (SIGIO) received from 27076
+2023/06/17 22:15:18 [notice] 27066#0: signal 23 (SIGIO) received from 27076
+2023/06/17 22:15:18 [notice] 27066#0: signal 23 (SIGIO) received from 27069
+2023/06/17 22:15:18 [notice] 27066#0: signal 23 (SIGIO) received from 27069
+2023/06/17 22:15:18 [notice] 27066#0: signal 23 (SIGIO) received from 27069
+2023/06/17 22:15:18 [notice] 27066#0: signal 23 (SIGIO) received from 27069
+2023/06/17 22:15:18 [notice] 27066#0: signal 23 (SIGIO) received
+2023/06/17 22:15:18 [notice] 27066#0: signal 23 (SIGIO) received from 27068
+2023/06/17 22:15:18 [notice] 27066#0: signal 23 (SIGIO) received from 27075
+2023/06/17 22:15:18 [notice] 27066#0: signal 23 (SIGIO) received
+2023/06/17 22:15:18 [notice] 27066#0: signal 23 (SIGIO) received from 27075
+2023/06/17 22:15:18 [notice] 27066#0: signal 23 (SIGIO) received from 27071
+2023/06/17 22:15:18 [notice] 27066#0: signal 23 (SIGIO) received from 27071
+2023/06/17 22:15:18 [notice] 27066#0: signal 23 (SIGIO) received from 27071
+2023/06/17 22:15:18 [notice] 27066#0: signal 23 (SIGIO) received from 27071
+2023/06/17 22:15:18 [notice] 27066#0: signal 23 (SIGIO) received from 27071
+2023/06/17 22:15:18 [notice] 27066#0: signal 23 (SIGIO) received from 27071
+2023/06/17 22:15:18 [notice] 27066#0: signal 23 (SIGIO) received from 27068
+2023/06/17 22:15:18 [notice] 27066#0: signal 23 (SIGIO) received from 27068
+2023/06/17 22:15:18 [notice] 27066#0: signal 23 (SIGIO) received from 27068
+2023/06/17 22:15:18 [notice] 27066#0: signal 23 (SIGIO) received
+2023/06/17 22:15:18 [notice] 27066#0: signal 23 (SIGIO) received from 27072
+2023/06/17 22:15:18 [notice] 27066#0: signal 23 (SIGIO) received from 27072
+2023/06/17 22:15:18 [notice] 27066#0: signal 23 (SIGIO) received from 27072
+2023/06/17 22:15:18 [notice] 27066#0: signal 23 (SIGIO) received from 27072
+2023/06/17 22:15:18 [notice] 27066#0: signal 23 (SIGIO) received from 27072
+2023/06/17 22:15:18 [notice] 27066#0: signal 23 (SIGIO) received from 27074
+2023/06/17 22:15:18 [notice] 27066#0: signal 23 (SIGIO) received
+2023/06/17 22:15:18 [notice] 27066#0: signal 23 (SIGIO) received from 27077
+2023/06/17 22:15:18 [notice] 27066#0: signal 23 (SIGIO) received from 27070
+2023/06/17 22:15:18 [notice] 27066#0: signal 23 (SIGIO) received from 27070
+2023/06/17 22:15:18 [notice] 27066#0: signal 23 (SIGIO) received from 27070
+2023/06/17 22:15:18 [notice] 27066#0: signal 23 (SIGIO) received from 27070
+2023/06/17 22:15:26 [notice] 27066#0: signal 15 (SIGTERM) received from 27112, exiting
+2023/06/17 22:15:26 [notice] 27070#0: exiting
+2023/06/17 22:15:26 [notice] 27069#0: exiting
+2023/06/17 22:15:26 [notice] 27075#0: exiting
+2023/06/17 22:15:26 [notice] 27066#0: signal 23 (SIGIO) received from 27074
+2023/06/17 22:15:26 [notice] 27067#0: exiting
+2023/06/17 22:15:26 [notice] 27072#0: exiting
+2023/06/17 22:15:26 [notice] 27066#0: signal 23 (SIGIO) received
+2023/06/17 22:15:26 [notice] 27071#0: exiting
+2023/06/17 22:15:26 [notice] 27073#0: exiting
+2023/06/17 22:15:26 [notice] 27077#0: exiting
+2023/06/17 22:15:26 [notice] 27074#0: exiting
+2023/06/17 22:15:26 [notice] 27076#0: exiting
+2023/06/17 22:15:26 [notice] 27066#0: signal 23 (SIGIO) received
+2023/06/17 22:15:26 [notice] 27078#0: exiting
+2023/06/17 22:15:26 [notice] 27066#0: signal 23 (SIGIO) received
+2023/06/17 22:15:26 [notice] 27068#0: exiting
+2023/06/17 22:15:26 [notice] 27066#0: signal 14 (SIGALRM) received
+2023/06/17 22:15:26 [notice] 27070#0: exit
+2023/06/17 22:15:26 [notice] 27068#0: exit
+2023/06/17 22:15:26 [notice] 27076#0: exit
+2023/06/17 22:15:26 [notice] 27069#0: exit
+2023/06/17 22:15:26 [notice] 27078#0: exit
+2023/06/17 22:15:26 [notice] 27074#0: exit
+2023/06/17 22:15:26 [notice] 27072#0: exit
+2023/06/17 22:15:26 [notice] 27077#0: exit
+2023/06/17 22:15:26 [notice] 27071#0: exit
+2023/06/17 22:15:26 [notice] 27066#0: signal 20 (SIGCHLD) received from 27070
+2023/06/17 22:15:26 [notice] 27066#0: worker process 27070 exited with code 0
+2023/06/17 22:15:26 [notice] 27073#0: exit
+2023/06/17 22:15:26 [notice] 27066#0: worker process 27076 exited with code 0
+2023/06/17 22:15:26 [notice] 27066#0: worker process 27068 exited with code 0
+2023/06/17 22:15:26 [notice] 27067#0: exit
+2023/06/17 22:15:26 [notice] 27066#0: signal 23 (SIGIO) received
+2023/06/17 22:15:26 [notice] 27066#0: signal 20 (SIGCHLD) received from 27076
+2023/06/17 22:15:26 [notice] 27066#0: signal 20 (SIGCHLD) received from 27069
+2023/06/17 22:15:26 [notice] 27066#0: worker process 27069 exited with code 0
+2023/06/17 22:15:26 [notice] 27066#0: signal 23 (SIGIO) received
+2023/06/17 22:15:26 [notice] 27066#0: signal 20 (SIGCHLD) received from 27078
+2023/06/17 22:15:26 [notice] 27066#0: worker process 27078 exited with code 0
+2023/06/17 22:15:26 [notice] 27066#0: signal 23 (SIGIO) received
+2023/06/17 22:15:26 [notice] 27075#0: exit
+2023/06/17 22:15:26 [notice] 27066#0: signal 20 (SIGCHLD) received from 27074
+2023/06/17 22:15:26 [notice] 27066#0: worker process 27074 exited with code 0
+2023/06/17 22:15:26 [notice] 27066#0: signal 23 (SIGIO) received
+2023/06/17 22:15:26 [notice] 27066#0: signal 20 (SIGCHLD) received from 27072
+2023/06/17 22:15:26 [notice] 27066#0: worker process 27072 exited with code 0
+2023/06/17 22:15:26 [notice] 27066#0: signal 23 (SIGIO) received
+2023/06/17 22:15:26 [notice] 27066#0: signal 20 (SIGCHLD) received from 27071
+2023/06/17 22:15:26 [notice] 27066#0: worker process 27071 exited with code 0
+2023/06/17 22:15:26 [notice] 27066#0: signal 23 (SIGIO) received
+2023/06/17 22:15:26 [notice] 27066#0: signal 20 (SIGCHLD) received from 27073
+2023/06/17 22:15:26 [notice] 27066#0: worker process 27077 exited with code 0
+2023/06/17 22:15:26 [notice] 27066#0: worker process 27073 exited with code 0
+2023/06/17 22:15:26 [notice] 27066#0: signal 23 (SIGIO) received
+2023/06/17 22:15:26 [notice] 27066#0: signal 20 (SIGCHLD) received from 27067
+2023/06/17 22:15:26 [notice] 27066#0: worker process 27067 exited with code 0
+2023/06/17 22:15:26 [notice] 27066#0: signal 23 (SIGIO) received
+2023/06/17 22:15:26 [notice] 27066#0: signal 23 (SIGIO) received from 27075
+2023/06/17 22:15:26 [notice] 27066#0: signal 20 (SIGCHLD) received from 27075
+2023/06/17 22:15:26 [notice] 27066#0: worker process 27075 exited with code 0
+2023/06/17 22:15:26 [notice] 27066#0: exit
+2023/06/17 22:15:29 [notice] 27171#0: [lua] regex.lua:431: parse_regex_opts(): regex compilation cache disabled in init phase under macOS
+2023/06/17 22:15:29 [notice] 27171#0: [lua] regex.lua:435: parse_regex_opts(): regex compilation disabled in init phase under macOS
+2023/06/17 22:15:29 [notice] 27171#0: [lua] regex.lua:431: parse_regex_opts(): regex compilation cache disabled in init phase under macOS
+2023/06/17 22:15:29 [notice] 27171#0: [lua] regex.lua:435: parse_regex_opts(): regex compilation disabled in init phase under macOS
+2023/06/17 22:15:29 [notice] 27171#0: [lua] regex.lua:435: parse_regex_opts(): regex compilation disabled in init phase under macOS
+2023/06/17 22:15:29 [notice] 27171#0: [lua] regex.lua:431: parse_regex_opts(): regex compilation cache disabled in init phase under macOS
+2023/06/17 22:15:29 [notice] 27171#0: [lua] regex.lua:435: parse_regex_opts(): regex compilation disabled in init phase under macOS
+2023/06/17 22:15:29 [notice] 27171#0: [lua] regex.lua:431: parse_regex_opts(): regex compilation cache disabled in init phase under macOS
+2023/06/17 22:15:29 [notice] 27171#0: using the "kqueue" event method
+2023/06/17 22:15:29 [notice] 27171#0: openresty/1.21.4.1
+2023/06/17 22:15:29 [notice] 27171#0: OS: Darwin 22.5.0
+2023/06/17 22:15:29 [notice] 27171#0: hw.ncpu: 12
+2023/06/17 22:15:29 [notice] 27171#0: net.inet.tcp.sendspace: 131072
+2023/06/17 22:15:29 [notice] 27171#0: kern.ipc.somaxconn: 128
+2023/06/17 22:15:29 [notice] 27171#0: getrlimit(RLIMIT_NOFILE): 10240:9223372036854775807
+2023/06/17 22:15:29 [notice] 27179#0: start worker processes
+2023/06/17 22:15:29 [notice] 27179#0: start worker process 27180
+2023/06/17 22:15:29 [notice] 27179#0: start worker process 27181
+2023/06/17 22:15:29 [notice] 27179#0: start worker process 27182
+2023/06/17 22:15:29 [notice] 27179#0: start worker process 27183
+2023/06/17 22:15:29 [notice] 27179#0: start worker process 27184
+2023/06/17 22:15:29 [notice] 27179#0: start worker process 27185
+2023/06/17 22:15:29 [notice] 27179#0: start worker process 27186
+2023/06/17 22:15:29 [notice] 27179#0: start worker process 27187
+2023/06/17 22:15:29 [notice] 27179#0: start worker process 27188
+2023/06/17 22:15:29 [notice] 27179#0: start worker process 27189
+2023/06/17 22:15:29 [notice] 27179#0: start worker process 27190
+2023/06/17 22:15:29 [notice] 27179#0: start worker process 27191
+2023/06/17 22:15:30 [notice] 27185#0: *2 [lua] globalpatches.lua:66: sleep(): executing a blocking 'sleep' (0.001 seconds), context: init_worker_by_lua*
+2023/06/17 22:15:29 [notice] 27184#0: *1 [lua] globalpatches.lua:66: sleep(): executing a blocking 'sleep' (0.001 seconds), context: init_worker_by_lua*
+2023/06/17 22:15:30 [notice] 27185#0: *2 [lua] globalpatches.lua:66: sleep(): executing a blocking 'sleep' (0.002 seconds), context: init_worker_by_lua*
+2023/06/17 22:15:30 [notice] 27180#0: *4 [lua] globalpatches.lua:66: sleep(): executing a blocking 'sleep' (0.001 seconds), context: init_worker_by_lua*
+2023/06/17 22:15:30 [notice] 27184#0: *1 [lua] globalpatches.lua:66: sleep(): executing a blocking 'sleep' (0.002 seconds), context: init_worker_by_lua*
+2023/06/17 22:15:30 [notice] 27185#0: *2 [lua] globalpatches.lua:66: sleep(): executing a blocking 'sleep' (0.004 seconds), context: init_worker_by_lua*
+2023/06/17 22:15:30 [notice] 27180#0: *4 [lua] globalpatches.lua:66: sleep(): executing a blocking 'sleep' (0.002 seconds), context: init_worker_by_lua*
+2023/06/17 22:15:30 [notice] 27190#0: *9 [lua] globalpatches.lua:66: sleep(): executing a blocking 'sleep' (0.001 seconds), context: init_worker_by_lua*
+2023/06/17 22:15:30 [notice] 27184#0: *1 [lua] globalpatches.lua:66: sleep(): executing a blocking 'sleep' (0.004 seconds), context: init_worker_by_lua*
+2023/06/17 22:15:30 [notice] 27185#0: *2 [lua] globalpatches.lua:66: sleep(): executing a blocking 'sleep' (0.008 seconds), context: init_worker_by_lua*
+2023/06/17 22:15:30 [notice] 27190#0: *9 [lua] globalpatches.lua:66: sleep(): executing a blocking 'sleep' (0.002 seconds), context: init_worker_by_lua*
+2023/06/17 22:15:30 [notice] 27181#0: *3 [lua] init.lua:240: purge(): [DB cache] purging (local) cache, context: init_worker_by_lua*
+2023/06/17 22:15:30 [notice] 27181#0: *3 [lua] init.lua:240: purge(): [DB cache] purging (local) cache, context: init_worker_by_lua*
+2023/06/17 22:15:30 [notice] 27181#0: *3 [kong] init.lua:453 declarative config loaded from ./kong/kong.yml, context: init_worker_by_lua*
+2023/06/17 22:15:30 [notice] 27180#0: *4 [lua] globalpatches.lua:66: sleep(): executing a blocking 'sleep' (0.004 seconds), context: init_worker_by_lua*
+2023/06/17 22:15:30 [notice] 27181#0: *3 [lua] init.lua:415: every(): [timer-ng] fallback to ngx.timer.every [interval = 86400], context: init_worker_by_lua*
+2023/06/17 22:15:30 [notice] 27187#0: *6 [lua] init.lua:415: every(): [timer-ng] fallback to ngx.timer.every [interval = 86400], context: init_worker_by_lua*
+2023/06/17 22:15:30 [notice] 27184#0: *1 [lua] init.lua:415: every(): [timer-ng] fallback to ngx.timer.every [interval = 86400], context: init_worker_by_lua*
+2023/06/17 22:15:30 [notice] 27190#0: *9 [lua] init.lua:415: every(): [timer-ng] fallback to ngx.timer.every [interval = 86400], context: init_worker_by_lua*
+2023/06/17 22:15:30 [notice] 27182#0: *5 [lua] init.lua:415: every(): [timer-ng] fallback to ngx.timer.every [interval = 86400], context: init_worker_by_lua*
+2023/06/17 22:15:30 [notice] 27188#0: *8 [lua] init.lua:415: every(): [timer-ng] fallback to ngx.timer.every [interval = 86400], context: init_worker_by_lua*
+2023/06/17 22:15:30 [notice] 27185#0: *2 [lua] init.lua:415: every(): [timer-ng] fallback to ngx.timer.every [interval = 86400], context: init_worker_by_lua*
+2023/06/17 22:15:30 [notice] 27180#0: *4 [lua] init.lua:415: every(): [timer-ng] fallback to ngx.timer.every [interval = 86400], context: init_worker_by_lua*
+2023/06/17 22:15:30 [notice] 27191#0: *11 [lua] init.lua:415: every(): [timer-ng] fallback to ngx.timer.every [interval = 86400], context: init_worker_by_lua*
+2023/06/17 22:15:30 [notice] 27183#0: *10 [lua] init.lua:415: every(): [timer-ng] fallback to ngx.timer.every [interval = 86400], context: init_worker_by_lua*
+2023/06/17 22:15:30 [notice] 27186#0: *7 [lua] init.lua:415: every(): [timer-ng] fallback to ngx.timer.every [interval = 86400], context: init_worker_by_lua*
+2023/06/17 22:15:30 [notice] 27189#0: *12 [lua] init.lua:415: every(): [timer-ng] fallback to ngx.timer.every [interval = 86400], context: init_worker_by_lua*
+2023/06/17 22:15:30 [notice] 27179#0: signal 23 (SIGIO) received from 27184
+2023/06/17 22:15:30 [notice] 27179#0: signal 23 (SIGIO) received from 27184
+2023/06/17 22:15:30 [notice] 27179#0: signal 23 (SIGIO) received
+2023/06/17 22:15:30 [notice] 27179#0: signal 23 (SIGIO) received from 27185
+2023/06/17 22:15:30 [notice] 27179#0: signal 23 (SIGIO) received from 27181
+2023/06/17 22:15:30 [notice] 27179#0: signal 23 (SIGIO) received from 27181
+2023/06/17 22:15:30 [notice] 27179#0: signal 23 (SIGIO) received from 27181
+2023/06/17 22:15:30 [notice] 27179#0: signal 23 (SIGIO) received from 27181
+2023/06/17 22:15:30 [notice] 27179#0: signal 23 (SIGIO) received from 27181
+2023/06/17 22:15:30 [notice] 27179#0: signal 23 (SIGIO) received from 27181
+2023/06/17 22:15:30 [notice] 27179#0: signal 23 (SIGIO) received from 27181
+2023/06/17 22:15:30 [notice] 27179#0: signal 23 (SIGIO) received from 27181
+2023/06/17 22:15:30 [notice] 27179#0: signal 23 (SIGIO) received from 27181
+2023/06/17 22:15:30 [notice] 27179#0: signal 23 (SIGIO) received from 27181
+2023/06/17 22:15:30 [notice] 27179#0: signal 23 (SIGIO) received from 27187
+2023/06/17 22:15:30 [notice] 27179#0: signal 23 (SIGIO) received from 27187
+2023/06/17 22:15:30 [notice] 27179#0: signal 23 (SIGIO) received from 27187
+2023/06/17 22:15:30 [notice] 27179#0: signal 23 (SIGIO) received from 27182
+2023/06/17 22:15:30 [notice] 27179#0: signal 23 (SIGIO) received from 27182
+2023/06/17 22:15:30 [notice] 27179#0: signal 23 (SIGIO) received from 27182
+2023/06/17 22:15:30 [notice] 27179#0: signal 23 (SIGIO) received from 27182
+2023/06/17 22:15:30 [notice] 27179#0: signal 23 (SIGIO) received from 27182
+2023/06/17 22:15:30 [notice] 27179#0: signal 23 (SIGIO) received from 27182
+2023/06/17 22:15:30 [notice] 27179#0: signal 23 (SIGIO) received from 27182
+2023/06/17 22:15:30 [notice] 27179#0: signal 23 (SIGIO) received from 27182
+2023/06/17 22:15:30 [notice] 27179#0: signal 23 (SIGIO) received from 27180
+2023/06/17 22:15:30 [notice] 27179#0: signal 23 (SIGIO) received from 27180
+2023/06/17 22:15:30 [notice] 27179#0: signal 23 (SIGIO) received from 27183
+2023/06/17 22:15:30 [notice] 27179#0: signal 23 (SIGIO) received from 27183
+2023/06/17 22:15:30 [notice] 27179#0: signal 23 (SIGIO) received from 27183
+2023/06/17 22:15:30 [notice] 27179#0: signal 23 (SIGIO) received
+2023/06/17 22:15:30 [notice] 27179#0: signal 23 (SIGIO) received from 27186
+2023/06/17 22:15:30 [notice] 27179#0: signal 23 (SIGIO) received from 27180
+2023/06/17 22:15:30 [notice] 27179#0: signal 23 (SIGIO) received from 27188
+2023/06/17 22:15:30 [notice] 27179#0: signal 23 (SIGIO) received from 27188
+2023/06/17 22:15:30 [notice] 27179#0: signal 23 (SIGIO) received from 27189
+2023/06/17 22:15:30 [notice] 27179#0: signal 23 (SIGIO) received
+2023/06/17 22:15:31 [notice] 27179#0: signal 15 (SIGTERM) received from 27224, exiting
+2023/06/17 22:15:31 [notice] 27180#0: exiting
+2023/06/17 22:15:31 [notice] 27183#0: exiting
+2023/06/17 22:15:31 [notice] 27188#0: exiting
+2023/06/17 22:15:31 [notice] 27190#0: exiting
+2023/06/17 22:15:31 [notice] 27189#0: exiting
+2023/06/17 22:15:31 [notice] 27187#0: exiting
+2023/06/17 22:15:31 [notice] 27191#0: exiting
+2023/06/17 22:15:31 [notice] 27186#0: exiting
+2023/06/17 22:15:31 [notice] 27179#0: signal 23 (SIGIO) received from 27189
+2023/06/17 22:15:31 [notice] 27179#0: signal 23 (SIGIO) received
+2023/06/17 22:15:31 [notice] 27181#0: exiting
+2023/06/17 22:15:31 [notice] 27182#0: exiting
+2023/06/17 22:15:31 [notice] 27185#0: exiting
+2023/06/17 22:15:31 [notice] 27184#0: exiting
+2023/06/17 22:15:31 [notice] 27179#0: signal 14 (SIGALRM) received
+2023/06/17 22:15:31 [notice] 27187#0: exit
+2023/06/17 22:15:31 [notice] 27181#0: exit
+2023/06/17 22:15:31 [notice] 27179#0: signal 20 (SIGCHLD) received from 27187
+2023/06/17 22:15:31 [notice] 27179#0: worker process 27187 exited with code 0
+2023/06/17 22:15:31 [notice] 27179#0: signal 23 (SIGIO) received
+2023/06/17 22:15:31 [notice] 27184#0: exit
+2023/06/17 22:15:31 [notice] 27179#0: signal 20 (SIGCHLD) received from 27181
+2023/06/17 22:15:31 [notice] 27179#0: worker process 27181 exited with code 0
+2023/06/17 22:15:31 [notice] 27179#0: signal 23 (SIGIO) received
+2023/06/17 22:15:31 [notice] 27188#0: exit
+2023/06/17 22:15:31 [notice] 27185#0: exit
+2023/06/17 22:15:31 [notice] 27190#0: exit
+2023/06/17 22:15:31 [notice] 27180#0: exit
+2023/06/17 22:15:31 [notice] 27179#0: signal 20 (SIGCHLD) received from 27184
+2023/06/17 22:15:31 [notice] 27179#0: worker process 27184 exited with code 0
+2023/06/17 22:15:31 [notice] 27179#0: signal 23 (SIGIO) received
+2023/06/17 22:15:31 [notice] 27179#0: signal 20 (SIGCHLD) received from 27188
+2023/06/17 22:15:31 [notice] 27179#0: worker process 27188 exited with code 0
+2023/06/17 22:15:31 [notice] 27179#0: signal 23 (SIGIO) received
+2023/06/17 22:15:31 [notice] 27189#0: exit
+2023/06/17 22:15:31 [notice] 27179#0: signal 20 (SIGCHLD) received from 27185
+2023/06/17 22:15:31 [notice] 27179#0: worker process 27185 exited with code 0
+2023/06/17 22:15:31 [notice] 27179#0: signal 23 (SIGIO) received
+2023/06/17 22:15:31 [notice] 27183#0: exit
+2023/06/17 22:15:31 [notice] 27179#0: signal 20 (SIGCHLD) received from 27190
+2023/06/17 22:15:31 [notice] 27191#0: exit
+2023/06/17 22:15:31 [notice] 27179#0: worker process 27190 exited with code 0
+2023/06/17 22:15:31 [notice] 27179#0: signal 23 (SIGIO) received
+2023/06/17 22:15:31 [notice] 27179#0: signal 20 (SIGCHLD) received from 27180
+2023/06/17 22:15:31 [notice] 27179#0: worker process 27180 exited with code 0
+2023/06/17 22:15:31 [notice] 27179#0: signal 23 (SIGIO) received
+2023/06/17 22:15:31 [notice] 27182#0: exit
+2023/06/17 22:15:31 [notice] 27179#0: signal 20 (SIGCHLD) received from 27183
+2023/06/17 22:15:31 [notice] 27179#0: worker process 27189 exited with code 0
+2023/06/17 22:15:31 [notice] 27179#0: worker process 27183 exited with code 0
+2023/06/17 22:15:31 [notice] 27179#0: signal 23 (SIGIO) received
+2023/06/17 22:15:31 [notice] 27179#0: signal 20 (SIGCHLD) received from 27189
+2023/06/17 22:15:31 [notice] 27179#0: worker process 27191 exited with code 0
+2023/06/17 22:15:31 [notice] 27179#0: signal 23 (SIGIO) received
+2023/06/17 22:15:31 [notice] 27179#0: signal 20 (SIGCHLD) received from 27191
+2023/06/17 22:15:31 [notice] 27186#0: exit
+2023/06/17 22:15:31 [notice] 27179#0: signal 20 (SIGCHLD) received from 27182
+2023/06/17 22:15:31 [notice] 27179#0: worker process 27182 exited with code 0
+2023/06/17 22:15:31 [notice] 27179#0: signal 23 (SIGIO) received
+2023/06/17 22:15:31 [notice] 27179#0: signal 23 (SIGIO) received from 27186
+2023/06/17 22:15:31 [notice] 27179#0: signal 20 (SIGCHLD) received from 27186
+2023/06/17 22:15:31 [notice] 27179#0: worker process 27186 exited with code 0
+2023/06/17 22:15:31 [notice] 27179#0: exit
+2023/06/17 22:19:42 [notice] 27428#0: [lua] regex.lua:431: parse_regex_opts(): regex compilation cache disabled in init phase under macOS
+2023/06/17 22:19:42 [notice] 27428#0: [lua] regex.lua:435: parse_regex_opts(): regex compilation disabled in init phase under macOS
+2023/06/17 22:19:42 [notice] 27428#0: [lua] regex.lua:435: parse_regex_opts(): regex compilation disabled in init phase under macOS
+2023/06/17 22:19:42 [notice] 27428#0: [lua] regex.lua:431: parse_regex_opts(): regex compilation cache disabled in init phase under macOS
+2023/06/17 22:19:42 [notice] 27428#0: [lua] regex.lua:431: parse_regex_opts(): regex compilation cache disabled in init phase under macOS
+2023/06/17 22:19:42 [notice] 27428#0: [lua] regex.lua:435: parse_regex_opts(): regex compilation disabled in init phase under macOS
+2023/06/17 22:19:42 [notice] 27428#0: [lua] regex.lua:435: parse_regex_opts(): regex compilation disabled in init phase under macOS
+2023/06/17 22:19:42 [notice] 27428#0: [lua] regex.lua:431: parse_regex_opts(): regex compilation cache disabled in init phase under macOS
+2023/06/17 22:19:42 [notice] 27428#0: using the "kqueue" event method
+2023/06/17 22:19:42 [notice] 27428#0: openresty/1.21.4.1
+2023/06/17 22:19:42 [notice] 27428#0: OS: Darwin 22.5.0
+2023/06/17 22:19:42 [notice] 27428#0: hw.ncpu: 12
+2023/06/17 22:19:42 [notice] 27428#0: net.inet.tcp.sendspace: 131072
+2023/06/17 22:19:42 [notice] 27428#0: kern.ipc.somaxconn: 128
+2023/06/17 22:19:42 [notice] 27428#0: getrlimit(RLIMIT_NOFILE): 10240:9223372036854775807
+2023/06/17 22:19:42 [notice] 27434#0: start worker processes
+2023/06/17 22:19:42 [notice] 27434#0: start worker process 27435
+2023/06/17 22:19:42 [notice] 27434#0: start worker process 27436
+2023/06/17 22:19:42 [notice] 27434#0: start worker process 27437
+2023/06/17 22:19:42 [notice] 27434#0: start worker process 27438
+2023/06/17 22:19:42 [notice] 27434#0: start worker process 27439
+2023/06/17 22:19:42 [notice] 27434#0: start worker process 27440
+2023/06/17 22:19:42 [notice] 27434#0: start worker process 27441
+2023/06/17 22:19:42 [notice] 27434#0: start worker process 27442
+2023/06/17 22:19:42 [notice] 27434#0: start worker process 27443
+2023/06/17 22:19:42 [notice] 27434#0: start worker process 27444
+2023/06/17 22:19:42 [notice] 27434#0: start worker process 27445
+2023/06/17 22:19:42 [notice] 27434#0: start worker process 27446
+2023/06/17 22:19:42 [notice] 27442#0: *6 [lua] globalpatches.lua:66: sleep(): executing a blocking 'sleep' (0.001 seconds), context: init_worker_by_lua*
+2023/06/17 22:19:43 [notice] 27442#0: *6 [lua] globalpatches.lua:66: sleep(): executing a blocking 'sleep' (0.002 seconds), context: init_worker_by_lua*
+2023/06/17 22:19:42 [notice] 27440#0: *3 [lua] globalpatches.lua:66: sleep(): executing a blocking 'sleep' (0.001 seconds), context: init_worker_by_lua*
+2023/06/17 22:19:43 [notice] 27440#0: *3 [lua] globalpatches.lua:66: sleep(): executing a blocking 'sleep' (0.002 seconds), context: init_worker_by_lua*
+2023/06/17 22:19:43 [notice] 27442#0: *6 [lua] globalpatches.lua:66: sleep(): executing a blocking 'sleep' (0.004 seconds), context: init_worker_by_lua*
+2023/06/17 22:19:42 [notice] 27438#0: *1 [lua] globalpatches.lua:66: sleep(): executing a blocking 'sleep' (0.001 seconds), context: init_worker_by_lua*
+2023/06/17 22:19:43 [notice] 27440#0: *3 [lua] globalpatches.lua:66: sleep(): executing a blocking 'sleep' (0.004 seconds), context: init_worker_by_lua*
+2023/06/17 22:19:43 [notice] 27438#0: *1 [lua] globalpatches.lua:66: sleep(): executing a blocking 'sleep' (0.002 seconds), context: init_worker_by_lua*
+2023/06/17 22:19:43 [notice] 27442#0: *6 [lua] globalpatches.lua:66: sleep(): executing a blocking 'sleep' (0.008 seconds), context: init_worker_by_lua*
+2023/06/17 22:19:43 [notice] 27438#0: *1 [lua] globalpatches.lua:66: sleep(): executing a blocking 'sleep' (0.004 seconds), context: init_worker_by_lua*
+2023/06/17 22:19:43 [notice] 27440#0: *3 [lua] globalpatches.lua:66: sleep(): executing a blocking 'sleep' (0.008 seconds), context: init_worker_by_lua*
+2023/06/17 22:19:43 [notice] 27438#0: *1 [lua] globalpatches.lua:66: sleep(): executing a blocking 'sleep' (0.008 seconds), context: init_worker_by_lua*
+2023/06/17 22:19:43 [notice] 27442#0: *6 [lua] globalpatches.lua:66: sleep(): executing a blocking 'sleep' (0.016 seconds), context: init_worker_by_lua*
+2023/06/17 22:19:42 [notice] 27443#0: *5 [lua] globalpatches.lua:66: sleep(): executing a blocking 'sleep' (0.001 seconds), context: init_worker_by_lua*
+2023/06/17 22:19:43 [notice] 27440#0: *3 [lua] globalpatches.lua:66: sleep(): executing a blocking 'sleep' (0.016 seconds), context: init_worker_by_lua*
+2023/06/17 22:19:42 [notice] 27441#0: *9 [lua] globalpatches.lua:66: sleep(): executing a blocking 'sleep' (0.001 seconds), context: init_worker_by_lua*
+2023/06/17 22:19:43 [notice] 27443#0: *5 [lua] globalpatches.lua:66: sleep(): executing a blocking 'sleep' (0.002 seconds), context: init_worker_by_lua*
+2023/06/17 22:19:43 [notice] 27441#0: *9 [lua] globalpatches.lua:66: sleep(): executing a blocking 'sleep' (0.002 seconds), context: init_worker_by_lua*
+2023/06/17 22:19:43 [notice] 27443#0: *5 [lua] globalpatches.lua:66: sleep(): executing a blocking 'sleep' (0.004 seconds), context: init_worker_by_lua*
+2023/06/17 22:19:43 [notice] 27441#0: *9 [lua] globalpatches.lua:66: sleep(): executing a blocking 'sleep' (0.004 seconds), context: init_worker_by_lua*
+2023/06/17 22:19:43 [notice] 27438#0: *1 [lua] globalpatches.lua:66: sleep(): executing a blocking 'sleep' (0.016 seconds), context: init_worker_by_lua*
+2023/06/17 22:19:43 [notice] 27437#0: *7 [lua] globalpatches.lua:66: sleep(): executing a blocking 'sleep' (0.001 seconds), context: init_worker_by_lua*
+2023/06/17 22:19:42 [notice] 27435#0: *2 [lua] init.lua:240: purge(): [DB cache] purging (local) cache, context: init_worker_by_lua*
+2023/06/17 22:19:42 [notice] 27435#0: *2 [lua] init.lua:240: purge(): [DB cache] purging (local) cache, context: init_worker_by_lua*
+2023/06/17 22:19:43 [notice] 27437#0: *7 [lua] globalpatches.lua:66: sleep(): executing a blocking 'sleep' (0.002 seconds), context: init_worker_by_lua*
+2023/06/17 22:19:42 [notice] 27435#0: *2 [kong] init.lua:453 declarative config loaded from ./kong/kong.yml, context: init_worker_by_lua*
+2023/06/17 22:19:43 [notice] 27436#0: *4 [lua] init.lua:415: every(): [timer-ng] fallback to ngx.timer.every [interval = 86400], context: init_worker_by_lua*
+2023/06/17 22:19:43 [notice] 27441#0: *9 [lua] init.lua:415: every(): [timer-ng] fallback to ngx.timer.every [interval = 86400], context: init_worker_by_lua*
+2023/06/17 22:19:43 [notice] 27443#0: *5 [lua] init.lua:415: every(): [timer-ng] fallback to ngx.timer.every [interval = 86400], context: init_worker_by_lua*
+2023/06/17 22:19:43 [notice] 27435#0: *2 [lua] init.lua:415: every(): [timer-ng] fallback to ngx.timer.every [interval = 86400], context: init_worker_by_lua*
+2023/06/17 22:19:43 [notice] 27437#0: *7 [lua] init.lua:415: every(): [timer-ng] fallback to ngx.timer.every [interval = 86400], context: init_worker_by_lua*
+2023/06/17 22:19:43 [notice] 27442#0: *6 [lua] init.lua:415: every(): [timer-ng] fallback to ngx.timer.every [interval = 86400], context: init_worker_by_lua*
+2023/06/17 22:19:43 [notice] 27440#0: *3 [lua] init.lua:415: every(): [timer-ng] fallback to ngx.timer.every [interval = 86400], context: init_worker_by_lua*
+2023/06/17 22:19:43 [notice] 27438#0: *1 [lua] init.lua:415: every(): [timer-ng] fallback to ngx.timer.every [interval = 86400], context: init_worker_by_lua*
+2023/06/17 22:19:43 [notice] 27446#0: *11 [lua] init.lua:415: every(): [timer-ng] fallback to ngx.timer.every [interval = 86400], context: init_worker_by_lua*
+2023/06/17 22:19:43 [notice] 27444#0: *12 [lua] init.lua:415: every(): [timer-ng] fallback to ngx.timer.every [interval = 86400], context: init_worker_by_lua*
+2023/06/17 22:19:43 [notice] 27445#0: *10 [lua] init.lua:415: every(): [timer-ng] fallback to ngx.timer.every [interval = 86400], context: init_worker_by_lua*
+2023/06/17 22:19:43 [notice] 27434#0: signal 23 (SIGIO) received from 27443
+2023/06/17 22:19:43 [notice] 27439#0: *8 [lua] init.lua:415: every(): [timer-ng] fallback to ngx.timer.every [interval = 86400], context: init_worker_by_lua*
+2023/06/17 22:19:43 [notice] 27434#0: signal 23 (SIGIO) received from 27437
+2023/06/17 22:19:43 [notice] 27434#0: signal 23 (SIGIO) received from 27440
+2023/06/17 22:19:43 [notice] 27434#0: signal 23 (SIGIO) received from 27438
+2023/06/17 22:19:43 [notice] 27434#0: signal 23 (SIGIO) received from 27444
+2023/06/17 22:19:43 [notice] 27434#0: signal 23 (SIGIO) received from 27445
+2023/06/17 22:19:43 [notice] 27434#0: signal 23 (SIGIO) received from 27439
+2023/06/17 22:19:43 [notice] 27434#0: signal 23 (SIGIO) received
+2023/06/18 20:10:00 [notice] 27434#0: signal 15 (SIGTERM) received from 56886, exiting
+2023/06/18 20:10:00 [notice] 27443#0: exiting
+2023/06/18 20:10:00 [notice] 27435#0: exiting
+2023/06/18 20:10:00 [notice] 27437#0: exiting
+2023/06/18 20:10:00 [notice] 27438#0: exiting
+2023/06/18 20:10:00 [notice] 27442#0: exiting
+2023/06/18 20:10:00 [notice] 27436#0: exiting
+2023/06/18 20:10:00 [notice] 27445#0: exiting
+2023/06/18 20:10:00 [notice] 27440#0: exiting
+2023/06/18 20:10:00 [notice] 27439#0: exiting
+2023/06/18 20:10:00 [notice] 27434#0: signal 23 (SIGIO) received from 27445
+2023/06/18 20:10:00 [notice] 27444#0: exiting
+2023/06/18 20:10:00 [notice] 27441#0: exiting
+2023/06/18 20:10:00 [notice] 27434#0: signal 23 (SIGIO) received
+2023/06/18 20:10:00 [notice] 27434#0: signal 23 (SIGIO) received from 27446
+2023/06/18 20:10:00 [notice] 27446#0: exiting
+2023/06/18 20:10:00 [notice] 27434#0: signal 14 (SIGALRM) received
+2023/06/18 20:10:00 [notice] 27434#0: signal 14 (SIGALRM) received
+2023/06/18 20:10:00 [notice] 27437#0: exit
+2023/06/18 20:10:00 [notice] 27446#0: exit
+2023/06/18 20:10:00 [notice] 27442#0: exit
+2023/06/18 20:10:00 [notice] 27435#0: exit
+2023/06/18 20:10:00 [notice] 27441#0: exit
+2023/06/18 20:10:00 [notice] 27440#0: exit
+2023/06/18 20:10:00 [notice] 27444#0: exit
+2023/06/18 20:10:00 [notice] 27445#0: exit
+2023/06/18 20:10:00 [notice] 27443#0: exit
+2023/06/18 20:10:00 [notice] 27438#0: exit
+2023/06/18 20:10:00 [notice] 27439#0: exit
+2023/06/18 20:10:00 [notice] 27436#0: exit
+2023/06/18 20:10:00 [notice] 27434#0: signal 20 (SIGCHLD) received from 27441
+2023/06/18 20:10:00 [notice] 27434#0: worker process 27441 exited with code 0
+2023/06/18 20:10:00 [notice] 27434#0: signal 23 (SIGIO) received
+2023/06/18 20:10:00 [notice] 27434#0: signal 20 (SIGCHLD) received from 27435
+2023/06/18 20:10:00 [notice] 27434#0: worker process 27436 exited with code 0
+2023/06/18 20:10:00 [notice] 27434#0: worker process 27435 exited with code 0
+2023/06/18 20:10:00 [notice] 27434#0: worker process 27443 exited with code 0
+2023/06/18 20:10:00 [notice] 27434#0: worker process 27445 exited with code 0
+2023/06/18 20:10:00 [notice] 27434#0: worker process 27442 exited with code 0
+2023/06/18 20:10:00 [notice] 27434#0: worker process 27440 exited with code 0
+2023/06/18 20:10:00 [notice] 27434#0: worker process 27438 exited with code 0
+2023/06/18 20:10:00 [notice] 27434#0: signal 23 (SIGIO) received
+2023/06/18 20:10:00 [notice] 27434#0: signal 20 (SIGCHLD) received from 27444
+2023/06/18 20:10:00 [notice] 27434#0: worker process 27446 exited with code 0
+2023/06/18 20:10:00 [notice] 27434#0: worker process 27444 exited with code 0
+2023/06/18 20:10:00 [notice] 27434#0: worker process 27439 exited with code 0
+2023/06/18 20:10:00 [notice] 27434#0: worker process 27437 exited with code 0
+2023/06/18 20:10:00 [notice] 27434#0: exit
